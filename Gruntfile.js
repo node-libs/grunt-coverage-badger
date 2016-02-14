@@ -1,6 +1,6 @@
 /*
  * grunt-coverage-badger
- * https://github.com/kuldeepkeshwar/test
+ * https://github.com/kuldeepkeshwar/grunt-coverage-badger
  *
  * Copyright (c) 2016 kuldeep keshwar
  * Licensed under the MIT license.
@@ -32,18 +32,12 @@ module.exports = function(grunt) {
     coverage_badger: {
       default_options: {
         options: {
-        },
-        files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
-      },
-      custom_options: {
-        options: {
-          separator: ': ',
-          punctuation: ' !!!'
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
+          istanbulReportFile: "./cobertura-coverage.xml",
+          badgeFileName: "coverage",
+          thresholds: {
+            excellent: 90,
+            good: 80
+          }
         }
       }
     },

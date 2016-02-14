@@ -26,16 +26,26 @@
   "scripts": {
     "test": "grunt test"
   },
-  "devDependencies": {
-    "grunt-contrib-jshint": "^0.9.2",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-nodeunit": "^0.3.3",
-    "grunt": "~0.4.5"
-  },
   "keywords": [
     "gruntplugin"
   ],
   "dependencies": {
-    "istanbul-cobertura-badger": "^1.2.1"
+    "xml-splitter": "~1.2.1",
+    "xtend": "~4.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "chai": "^3.2.0",
+    "codacy-coverage": "1.1.2",
+    "coveralls": "2.11.3",
+    "istanbul": "0.4.1",
+    "jscs": "^2.0.0",
+    "jshint": "^2.5.0",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "^1.0.0"
   }
 }
