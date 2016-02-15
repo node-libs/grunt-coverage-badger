@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - '4.2.2'
+before_script:
+  - 'export CHROME_BIN=chromium-browser'
+  - 'export DISPLAY=:99.0'
+  - 'sh -e /etc/init.d/xvfb start'
+  - 'npm install -g  karma grunt-cli jshint codecov codeclimate-test-reporter dot coveralls'
+  - 'npm install' # install npm packages
+
+after_script:
+  - 'grunt default'
+  - 'codecov coverage/cobertura/cobertura-coverage.xml --token=cbc57bcb-53d3-400b-bc66-49f1b4590b2e'
+  - 'CODECLIMATE_REPO_TOKEN=898715e040e240acd84e0bb88a870c5f14015f467c6df413cfd50aebfe0e99a6 codeclimate-test-reporter < coverage/lcov/lcov.info'
+  - 'coveralls < coverage/lcov/lcov.info'
