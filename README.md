@@ -1,6 +1,6 @@
 # grunt-coverage-badger
 
-> The best Grunt plugin ever.
+> generate coverage badge from Istanbul coverage report.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
