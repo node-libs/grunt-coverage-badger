@@ -27,7 +27,7 @@
     "test": "grunt test"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin","badger","coverage","coverage-badger","istanbul","istanbul-coverage-badger"
   ],
   "dependencies": {
     "grunt-bump": "^0.7.0",
