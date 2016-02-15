@@ -6,6 +6,15 @@
 
 [![Build Status](https://travis-ci.org/node-libs/grunt-coverage-badger.svg?branch=master)](https://travis-ci.org/node-libs/grunt-coverage-badger)
 
+[![Dependency Status](https://gemnasium.com/node-libs/grunt-coverage-badger.svg)](https://gemnasium.com/node-libs/grunt-coverage-badger)
+[![codecov.io](https://codecov.io/github/node-libs/grunt-coverage-badger/coverage.svg?branch=master)](https://codecov.io/github/node-libs/grunt-coverage-badger?branch=master)
+<a href="https://codeclimate.com/github/node-libs/grunt-coverage-badger"><img src="https://codeclimate.com/github/node-libs/grunt-coverage-badger/badges/gpa.svg" /></a>
+[![Coverage Status](https://coveralls.io/repos/node-libs/grunt-coverage-badger/badge.svg?branch=master&service=github)](https://coveralls.io/github/node-libs/grunt-coverage-badger?branch=master)
+
+[![Issue Stats](http://issuestats.com/github/node-libs/grunt-coverage-badger/badge/pr)](http://issuestats.com/github/node-libs/grunt-coverage-badger)
+[![Issue Stats](http://issuestats.com/github/node-libs/grunt-coverage-badger/badge/issue)](http://issuestats.com/github/node-libs/grunt-coverage-badger)
+
+
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
