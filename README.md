@@ -2,6 +2,10 @@
 
 > generate coverage badge from Istanbul coverage report.
 
+[![NPM](https://nodei.co/npm/grunt-coverage-badger.png)](https://nodei.co/npm/grunt-coverage-badger/)
+
+[![Build Status](https://travis-ci.org/node-libs/grunt-coverage-badger.svg?branch=master)](https://travis-ci.org/node-libs/grunt-coverage-badger)
+
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
