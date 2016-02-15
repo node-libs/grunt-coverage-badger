@@ -10,6 +10,7 @@
 
 module.exports = function(grunt) {
 
+    grunt.loadNpmTasks('grunt-bump');
   // Project configuration.
   grunt.initConfig({
     jshint: {
@@ -22,7 +23,24 @@ module.exports = function(grunt) {
         jshintrc: '.jshintrc'
       }
     },
-
+      bump: {
+          options: {
+              files: ['package.json'],
+              updateConfigs: [],
+              commit: true,
+              commitMessage: 'Release v%VERSION%',
+              commitFiles: ['-a'],
+              createTag: true,
+              tagName: 'v%VERSION%',
+              tagMessage: 'Version %VERSION%',
+              push: true,
+              pushTo: 'upstream',
+              gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
+              globalReplace: false,
+              prereleaseName: false,
+              regExp: false
+          }
+      },
     // Before generating any new files, remove any previously-created files.
     clean: {
       tests: ['tmp']
