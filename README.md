@@ -83,3 +83,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 _(Nothing yet)_
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-73812625-1/grunt-coverage-badger/)](https://github.com/node-libs/grunt-coverage-badger)
