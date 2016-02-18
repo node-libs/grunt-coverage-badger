@@ -5,7 +5,7 @@
 [![NPM](https://nodei.co/npm/grunt-coverage-badger.png)](https://nodei.co/npm/grunt-coverage-badger/)
 
 [![Build Status](https://travis-ci.org/node-libs/grunt-coverage-badger.svg?branch=master)](https://travis-ci.org/node-libs/grunt-coverage-badger)
-
+[![npm](https://img.shields.io/npm/dt/grunt-coverage-badger.svg)]()
 [![Dependency Status](https://gemnasium.com/node-libs/grunt-coverage-badger.svg)](https://gemnasium.com/node-libs/grunt-coverage-badger)
 [![codecov.io](https://codecov.io/github/node-libs/grunt-coverage-badger/coverage.svg?branch=master)](https://codecov.io/github/node-libs/grunt-coverage-badger?branch=master)
 <a href="https://codeclimate.com/github/node-libs/grunt-coverage-badger"><img src="https://codeclimate.com/github/node-libs/grunt-coverage-badger/badges/gpa.svg" /></a>
