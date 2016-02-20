@@ -99,3 +99,7 @@ _(Nothing yet)_
 
 
 [![Analytics](https://ga-beacon.appspot.com/UA-73812625-1/grunt-coverage-badger/)](https://github.com/node-libs/grunt-coverage-badger)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/node-libs/grunt-coverage-badger/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
