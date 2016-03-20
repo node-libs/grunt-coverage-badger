@@ -13,6 +13,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/node-libs/grunt-coverage-badger/badge.svg?branch=master)](https://coveralls.io/github/node-libs/grunt-coverage-badger?branch=master)
 [![Issue Stats](http://issuestats.com/github/node-libs/grunt-coverage-badger/badge/pr)](http://issuestats.com/github/node-libs/grunt-coverage-badger)
 [![Issue Stats](http://issuestats.com/github/node-libs/grunt-coverage-badger/badge/issue)](http://issuestats.com/github/node-libs/grunt-coverage-badger)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/7edd5a08b169479dac16dee87922bdd1)](https://www.codacy.com/app/kuldeepkeshwar/grunt-coverage-badger)
 
 
 ## Getting Started
