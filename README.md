@@ -14,6 +14,7 @@
 [![Issue Stats](http://issuestats.com/github/node-libs/grunt-coverage-badger/badge/pr)](http://issuestats.com/github/node-libs/grunt-coverage-badger)
 [![Issue Stats](http://issuestats.com/github/node-libs/grunt-coverage-badger/badge/issue)](http://issuestats.com/github/node-libs/grunt-coverage-badger)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/7edd5a08b169479dac16dee87922bdd1)](https://www.codacy.com/app/kuldeepkeshwar/grunt-coverage-badger)
+[![ReviewNinja](https://app.review.ninja/51642364/badge)](https://app.review.ninja/node-libs/grunt-coverage-badger)
 
 
 ## Getting Started
