@@ -1,5 +1,7 @@
 # grunt-coverage-badger
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/node-libs/grunt-coverage-badger.svg)](https://greenkeeper.io/)
+
 > generate coverage badge from Istanbul coverage report.
 
 [![NPM](https://nodei.co/npm/grunt-coverage-badger.png)](https://nodei.co/npm/grunt-coverage-badger/)
